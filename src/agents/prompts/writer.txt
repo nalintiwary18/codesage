@@ -1,0 +1,1 @@
+I am the text prompt for the writing phase. I ensure the LLM follows the correct tone and styling for generating professional software reports.

@@ -1,0 +1,18 @@
+# Meri saari production dependencies yahan pinned hai
+click>=8.1
+pydantic>=2.0
+pathspec>=0.12
+rich>=13.0
+questionary>=2.0
+openai>=1.0
+google-generativeai>=0.5
+anthropic>=0.25
+groq>=0.5
+ollama>=0.2
+pyyaml>=6.0
+python-dotenv>=1.0
+
+# Dev dependencies — sirf development ke liye chahiye
+pytest>=8.0
+pytest-asyncio>=0.23
+ruff>=0.4

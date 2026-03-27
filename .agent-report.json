@@ -1,0 +1,1 @@
+I represent the user preferences file for `agent-report`. I specify defaults like provider preferences, custom thresholds, and the exact model the user requested to use.

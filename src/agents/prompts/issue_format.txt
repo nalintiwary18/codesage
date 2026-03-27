@@ -1,0 +1,1 @@
+I am the exact structure definition for issues. I ensure the LLM produces strictly formatted JSON output when explaining a problem.

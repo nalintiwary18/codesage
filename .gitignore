@@ -1,0 +1,31 @@
+# Mein git ko batata hoon ki kaunsi files track nahi karni
+
+# Secret environment variables — kabhi commit mat karna
+.env
+
+# Python bytecode aur cache
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# CodeSage generated files
+.codesage_cache/
+reports/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,1 @@
+I am the text prompt for the issue detection phase. I provide strict rules on finding security, performance, and design flaws precisely in the code.
