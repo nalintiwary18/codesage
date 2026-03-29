@@ -1,4 +1,4 @@
-# Meri saari production dependencies yahan pinned hai
+# all the prodcution dependencies are here
 click>=8.1
 pydantic>=2.0
 pathspec>=0.12
@@ -11,8 +11,9 @@ groq>=0.5
 ollama>=0.2
 pyyaml>=6.0
 python-dotenv>=1.0
+langgraph>=0.2
 
-# Dev dependencies — sirf development ke liye chahiye
+# Dev dependencies —
 pytest>=8.0
 pytest-asyncio>=0.23
 ruff>=0.4

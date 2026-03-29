@@ -1,3 +1,16 @@
-"""
-I define optional routing logic for the graph. I determine conditional edges, manage automatic retries, and handle any branching necessary during execution depending on node outputs.
-"""
+from src.graph.state import GraphState
+
+def after_load_code(state: GraphState) -> str:
+    if not state.get("files"):
+        return "end"
+    return "chunked"
+def after_chunked(state: GraphState) -> str:
+    if not state.get("all_chunks"):
+        return "end"
+    return "index"
+def after_detection(state: GraphState) -> str:
+    if not state.get("raw_issues"):
+        return "end"
+    return "review_issues"
+
+
